@@ -110,7 +110,7 @@ public class RedBlackTree <V extends Comparable<V>> {
         private void inorder (Node node){
         if (node != null) {
             inorder(node.left);
-            System.out.print(node.data + " " + node.color + "|");
+            System.out.print(node.data + " " + node.color + " || ");
             inorder(node.right);
         }
     }
