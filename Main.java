@@ -2,22 +2,22 @@ public class Main {
     public static void main(String[] args) {
         RedBlackTree node = new RedBlackTree();
 
-        node.insert(10);
+        node.insert(1);
         node.inorder();
         System.out.println("\n");
-        node.insert(20);
+        node.insert(2);
         node.inorder();
         System.out.println("\n");
-        node.insert(30);
+        node.insert(3);
         node.inorder();
         System.out.println("\n");
-        node.insert(-23);
+        node.insert(-33);
         node.inorder();
         System.out.println("\n");
-        node.insert(-43);
+        node.insert(-64);
         node.inorder();
         System.out.println("\n");
-        node.insert(-443);
+        node.insert(-743);
         node.inorder();
         System.out.println("\n");
         node.insert(-4434);
