@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        RedBlackTree node = new RedBlackTree();
+        RedBlackTree<Integer> node = new RedBlackTree();
 
         node.insert(1);
         node.inorder();
